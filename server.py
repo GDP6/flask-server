@@ -22,7 +22,8 @@ def data():
     # Parse the JSON string into a JSON object
     JsonConfig = json.loads(jsonstring)
     print("received data: " + str(JsonConfig))
-    
+
+    ##ADD CODE HERE TO DO WITH PROCESSING THE INCOMING DATA!
 
     '''
     # Save the JSON object as a JSON file
