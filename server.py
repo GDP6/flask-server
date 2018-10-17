@@ -22,9 +22,15 @@ def data():
     # Parse the JSON string into a JSON object
     JsonConfig = json.loads(jsonstring)
     print("received data: " + str(JsonConfig))
+    
+
+    '''
     # Save the JSON object as a JSON file
     with open('JsonConfig.json', 'w') as outfile:
         json.dump(JsonConfig, outfile) 
+    
+    '''
+
     return ('All OK!', 200)
 
 @app.route("/datatest")
